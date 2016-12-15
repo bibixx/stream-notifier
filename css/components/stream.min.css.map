@@ -1,1 +1,0 @@
-{"version":3,"sources":["stream.css"],"names":[],"mappings":"AAAA;EACE,YAAY;EACZ,aAAa,EAAE","file":"stream.min.css","sourcesContent":[".stream {\n  width: 100%;\n  padding: 8px; }\n"]}

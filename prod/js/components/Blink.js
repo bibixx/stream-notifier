@@ -70,7 +70,7 @@ export default class Blink extends React.Component {
 
     return (
       <CustomTag
-        ref={(b) => { this.blinkElement = b; this.props.ref(b); }}
+        ref={(b) => { this.blinkElement = b; }}
         onClick={this.onClick}
         className={`blink-big blink-black blink-parent${className}`}
         {...props}
@@ -91,5 +91,4 @@ Blink.propTypes = {
   customTag: React.PropTypes.string,
   className: React.PropTypes.string,
   onClick: React.PropTypes.func,
-  ref: React.PropTypes.func,
 };
